@@ -10,6 +10,7 @@ require("dotenv").config();
 
 app.use(cors())
 app.use("/user", authrouter);
+app.use("/users", authrouter);
 app.use('/api', router)
 
 
